@@ -1,0 +1,181 @@
+/* General styles */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 20px;
+    margin: 0;
+    background: whitesmoke;
+}
+
+header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #505a6d;
+    margin: 0;
+    padding-left: 16px;
+}
+
+nav,
+footer {
+    background: #55617a;
+    padding: 20px;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav * {
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer * {
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 40px 20px;
+}
+
+main section {
+    padding: 0px 100px;
+    display: grid;
+    min-height: 56vh;
+}
+
+.active {
+    color: #dba30f;
+}
+
+
+/* index.html styles */
+
+#bander {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4px;
+    background-image: url('/images/airport.jpeg');
+    background-size: contain;
+}
+
+#index-article {
+    display: grid;
+    grid-template-columns: 68% 30%;
+    justify-content: space-between;
+}
+
+#index-article p,
+#articles p {
+    margin: 0;
+    text-align: justify;
+}
+
+#nurse-img {
+    background-image: url('/images/nurse.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+
+/* about.html styles */
+
+#page-title {
+    margin-top: 4px;
+    font-size: 46px;
+    color: #fff;
+    background: #323846;
+    padding: 60px;
+    text-align: center;
+}
+
+#warning-img {
+    background-image: url('/images/warning.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-article {
+    display: grid;
+    grid-template-columns: 20% 78%;
+    justify-content: space-between;
+}
+
+#articles p {
+    margin-bottom: 30px;
+}
+
+#articles {
+    height: 60vh;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: -14px;
+}
+
+
+/* preventions.html styles */
+
+.circle-list {
+    list-style: circle;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.square-list {
+    list-style: square;
+}
+
+#back-to-top {
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+#back-to-top a {
+    text-decoration: none;
+}
+
+
+/* email.html styles */
+
+#send-mail {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 70px;
+}
+
+#email-section a {
+    margin: auto;
+}
+
+#preventions-content>h4 {
+    margin-bottom: -1px;
+}
+
+#preventions-content p {
+    margin: 0;
+}
+
+#preventions-content {
+    padding-top: 20px;
+}
+
+#send-mail:hover {
+    cursor: pointer;
+}
